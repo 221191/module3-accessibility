@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 64px;
+  height: 80px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.list .list-item:not(:last-child) {
+  padding-right: 16px;
+  border-right: 1px solid #111111;
+}
+
+.list-item.list-item-icon {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper {
+  margin-left: 323px;
+}
+
+/* hero section */
+.hero {
+  height: 732px;
+  background-color: rgba(244, 242, 242, 0.705);
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 24px 64px 60px 64px;
+}
+
+.hero-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 647px;
+}
+
+.hero-h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #3a6150;
+  margin-bottom: 30px;
+}
+
+.hero-h3 {
+  color: #3a6150;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+
+.hero-paragraph {
+  color: #111111;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 20px;
+  width: 536px;
+}
+
+.btn-buy-now {
+  width: 196px;
+  height: 48px;
+  border-radius: 2px;
+  padding: 11px 63px 11px 63px;
+  background-color: #3a6150;
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  margin-top: 30px;
+}
+
+.about {
+  height: 449px;
+  display: flex;
+  padding: 80px 64px 80px 64px;
+  gap: 18px;
+}
+
+.about-box {
+  width: 647px;
+  height: 289px;
+  background-color: #3a6150;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 35px 24px;
+  color: #fff;
+}
+
+.box-content {
+  width: 401px;
+  height: 230px;
+}
+
+.about-h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-paragraph {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 30px;
+}
+
+.about-link {
+  color: #fff;
+}
+
+/* contact */
+
+.contact {
+  height: 837px;
+  padding: 80px 64px 120px 64px;
+}
